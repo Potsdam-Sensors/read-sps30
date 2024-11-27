@@ -8,7 +8,7 @@ import (
 	"github.com/coreos/go-systemd/daemon"
 )
 
-func printlnf(format string, a ...any) {
+func printlnf(format string, a ...interface{}) {
 	println(fmt.Sprintf(format, a...))
 }
 
