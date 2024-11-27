@@ -1,6 +1,6 @@
 module read-sps30
 
-go 1.22.5
+go 1.21
 
 require (
 	github.com/Potsdam-Sensors/OPERA-Data-Types v1.0.0
